@@ -12,6 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
+    {{ centres|json_script:"centres-data" }}
     <div id="map"></div>
     <script src="{% static 'js/map.js' %}"></script>
 </body>
