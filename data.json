@@ -1,0 +1,20 @@
+[
+    {
+        "district": "Abim",
+        "name": "Abim Hospital",
+        "lat": "2.698892",
+        "lon": "33.657788"
+    },
+    {
+        "district": "Adjumani",
+        "name": "Adjumani Hospital",
+        "lat": "3.374176",
+        "lon": "31.792498"
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Kibuli Hospital",
+        "lat": "0.309167",
+        "lon": "32.595278"
+    }
+]
