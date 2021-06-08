@@ -16,5 +16,143 @@
         "name": "Kibuli Hospital",
         "lat": "0.309167",
         "lon": "32.595278"
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "St. Francis Hospital - Nsambya", 
+        "lat": "0.3010960161674231",
+        "lon": "32.58746725266003"
+    },
+    {
+        "district": "Kampala/Central Division",
+        "name": "Kamwokya Christian Caring Community",  
+        "lat": "0.3434346517599219",
+        "lon": "32.58981844364343"
+    },
+    {
+        "district": "Kampala/Central Division",
+        "name": "Kisenyi Health Centre IV",  
+        "lat": "0.30779877340502565",
+        "lon": "32.57023179260863"
+    },
+    {
+        "district": "Kampala/Central Division",
+        "name": "City Hall Clinic",   
+        "lat": "0.3071651455097963",
+        "lon": "32.61209695080793"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Mengo Hospital",
+        "lat": "0.312778",
+        "lon": "32.558333"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Rubaga Hospital",
+        "lat": "0.304167",
+        "lon": "32.552778"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Kawaala Health Centre III", 
+        "lat": "0.339125301368235",
+        "lon": "32.554700812184215"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Kitebi Health Centre III",  
+        "lat": "0.2770556888232911",
+        "lon": "32.55013324318982"
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "St. Stephen Mpererwe Hospital",
+        "lat": "0.39965101189796626",
+        "lon": "32.57721943003469"
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "Komamboga Health Center III",  
+        "lat": "0.3909772286180764",
+        "lon": "32.58505764101991"
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Butabika Hospital",  
+        "lat": "0.3149522585584162",
+        "lon": "32.65854348890452"
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Kiswa Health Centre III",   
+        "lat": "0.321179712940706",
+        "lon": "32.617584021423816"
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "China-Uganda Friendship hospital",    
+        "lat": "0.32991181621948507",
+        "lon": "32.606283437315966"
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "UMC Victoria Hospital, Bukoto",     
+        "lat": "0.350141815192438",
+        "lon": "32.604006556364006"
+    },
+    {
+        "district": "Kaliro",
+        "name": "BUMANYA HC IV",
+        "lat": "1.0019482703874842",
+        "lon": "33.495452475937796"
+    },
+    {
+        "district": "Kalangala",
+        "name": "Kalangala HC IV",
+        "lat": "-0.31654850686447317",
+        "lon": "32.315175956293565"
+    },
+    {
+        "district": "Kalangala",
+        "name": "Bubeke HC III",
+        "lat": "-0.3201854263954266",
+        "lon": "32.579081337318364"
+    },
+    {
+        "district": "Kalangala",
+        "name": "Bufumira HC III",
+        "lat": "-0.3375126132506878",
+        "lon": "32.38241413493893"
+    },
+    {
+        "district": "Kalangala",
+        "name": "Mazinga HC III",
+        "lat": "-0.6671490778811184",
+        "lon": "32.33044757541608"
+    },
+    {
+        "district": "Iganga",
+        "name": "Iganga Hospital",
+        "lat": "0.6163771792156301",
+        "lon": "33.485704127527335"
+    },
+    {
+        "district": "Iganga",
+        "name": "Iganga Hospital",
+        "lat": "0.6163771792156301",
+        "lon": "33.485704127527335"
+    },
+    {
+        "district": "Soroti",
+        "name": "Soroti Regional Referral Hospital",  
+        "lat": "1.7159005948555333",
+        "lon": "33.614485510328066"
+    },
+    {
+        "district": "Tororo",
+        "name": "Tororo General Hospital",   
+        "lat": "0.6938898482887073",
+        "lon": "34.18723507964271"
     }
-]
+] 
