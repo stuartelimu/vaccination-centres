@@ -1,2 +1,2 @@
-# vaccination-centres
-A simple map application to show COVID-19 vaccination centres in Uganda
+# Vaccination Centers
+A simple map application to show COVID-19 vaccination centers in Uganda.
