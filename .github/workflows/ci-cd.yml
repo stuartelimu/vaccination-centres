@@ -14,6 +14,18 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:10.8
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: github_actions
+        ports:
+          - 5432:5432
+        # needed because the postgres container does not provide a healthcheck
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
@@ -24,4 +36,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Run migrations
+      run: python manage.py migrate
+    - name: Run tests
+      env:
+        SECRET_KEY: 290071d3d6a4f1a8e624df51bc84b4dc29d7fd539b4404b63a
+      run: python manage.py test
     
