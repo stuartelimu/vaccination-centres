@@ -37,6 +37,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run migrations
+      env:
+          SECRET_KEY: 290071d3d6a4f1a8e624df51bc84b4dc29d7fd539b4404b63a
       run: python manage.py migrate
     - name: Run tests
       env:
