@@ -97,13 +97,13 @@ if os.environ.get('GITHUB_WORKFLOW'):
             'PORT': 5432
         }
     }
-
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
-}
-DATABASES['default']['ENGINE'] = config('DB_ENGINE')
+else:
+    DATABASES = {
+        'default': dj_database_url.config(
+            default=config('DATABASE_URL')
+        )
+    }
+    DATABASES['default']['ENGINE'] = config('DB_ENGINE')
 
 
 # Password validation
