@@ -6,5 +6,5 @@ from . import views
 app_name = 'centres'
 
 urlpatterns = [
-    path('map/', views.CentreMapView.as_view(), name='map'),
+    path('', views.CentreMapView.as_view(), name='map'),
 ]
