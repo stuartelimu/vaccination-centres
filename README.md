@@ -12,3 +12,11 @@ The assumption is that you know how to write apps in Django.
 - Clone the repository and activate your virtual environment. 
 
 - Install the dependencies by running this command: `pip install -r requirements.txt`
+
+- Ensure you have `Postgres` installed on your machine. 
+
+- Create an `.env` file by copying it from `env.sample` and fill it with the details needed 
+
+- Run migrations using this command: `python manage.py makemigrations`
+
+- Run the web app using this command: `python manage.py runserver`
