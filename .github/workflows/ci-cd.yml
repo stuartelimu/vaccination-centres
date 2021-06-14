@@ -1,0 +1,47 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: CI/CD Workflow
+
+on:
+  push:
+    branches: [ master, develop ]
+  pull_request:
+    branches: [ master, develop ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: setup postgres with postgis extension
+      uses: huaxk/postgis-action@v1
+      with:
+        postgresql version: 11
+        postgresql user: postgres
+        postgresql password: postgres
+        postgresql db: github_actions
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Install addittional gdal dependencies
+      run: |
+        sudo apt-get install -y libgdal-dev
+    - name: Run migrations
+      env:
+          SECRET_KEY: 290071d3d6a4f1a8e624df51bc84b4dc29d7fd539b4404b63a
+      run: python manage.py migrate
+    - name: Run tests
+      env:
+        SECRET_KEY: 290071d3d6a4f1a8e624df51bc84b4dc29d7fd539b4404b63a
+      run: python manage.py test
+    
