@@ -24,6 +24,18 @@
         "lon": "32.58746725266003"
     },
     {
+        "district": "Kampala/Makindye Division",
+        "name": "International Hospital Kampala",  
+        "lat": "0.306059084642914",
+        "lon": "32.611479692026926"
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Kisugu Health Centre",   
+        "lat": "0.307058702876811",
+        "lon": "32.61157128202336"
+    },
+    {
         "district": "Kampala/Central Division",
         "name": "Kamwokya Christian Caring Community",  
         "lat": "0.3434346517599219",
@@ -154,5 +166,17 @@
         "name": "Tororo General Hospital",   
         "lat": "0.6938898482887073",
         "lon": "34.18723507964271"
+    },
+    {
+        "district": "Wakiso/Entebbe", 
+        "name": "Entebbe General Referral Hospital",   
+        "lat": "0.06413598148843584",
+        "lon": "32.471818485660094"
+    },
+    {
+        "district": "Wakiso/Entebbe", 
+        "name": "Kisubi Hospital",     
+        "lat": "0.12214747103975",
+        "lon": "32.53686685312011"
     }
 ] 
