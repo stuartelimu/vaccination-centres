@@ -15,7 +15,7 @@ The assumption is that you know how to write apps in Django.
 
 - Ensure you have `Postgres` installed on your machine. 
 
-- Create an `.env` file by copying it from `env.sample` and fill it with the details needed 
+- Rename `.env.sample` file to `.env`
 
 - Run migrations using this command: `python manage.py makemigrations`
 
