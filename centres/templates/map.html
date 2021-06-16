@@ -12,8 +12,24 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
+
     {{ centres|json_script:"centres-data" }}
-    <div id="map"></div>
+    <div id="map">
+        <div class="leaflet-top leaflet-right">
+            <div class="leaflet-control">
+
+                <input type="text" id="districts" placeholder="search district" name="districts" list="districts-list">
+                <datalist id="districts-list">
+                    {% for centre in centers %}
+
+                    {% ifchanged %}<option id="{{ centre.district.id }}">{{ centre.district }}</option>{% endifchanged %}
+                    
+                    {% endfor %}
+                    
+                </datalist>
+            </div>
+        </div>
+    </div>
     <script src="{% static 'js/map.js' %}"></script>
 </body>
 </html>
