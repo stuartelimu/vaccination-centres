@@ -10,11 +10,12 @@ html, body {
 }
 
 #districts {
-	height: 25px;
+	height: 30px;
 	padding: 2px 2px;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 }
 
 .leaflet-control-reload {
     font-size: 22px;
+    font-weight: bold;
 }
