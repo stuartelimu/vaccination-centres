@@ -19,6 +19,12 @@
     },
     {
         "district": "Kampala/Makindye Division",
+        "name": "Kiruddu National Referral Hospital",
+        "lat": "0.248056",
+        "lon": "32.612500"
+    },
+    {
+        "district": "Kampala/Makindye Division",
         "name": "St. Francis Hospital - Nsambya", 
         "lat": "0.3010960161674231",
         "lon": "32.58746725266003"
@@ -90,6 +96,12 @@
         "lon": "32.58505764101991"
     },
     {
+        "district": "Kampala/Kawempe Division",
+        "name": "Kawempe National Referral Hospital",  
+        "lat": "0.361944",
+        "lon": "32.561389"
+    },
+    {
         "district": "Kampala/Nakawa Division",
         "name": "Butabika Hospital",  
         "lat": "0.3149522585584162",
@@ -118,6 +130,24 @@
         "name": "BUMANYA HC IV",
         "lat": "1.0019482703874842",
         "lon": "33.495452475937796"
+    },
+    {
+        "district": "Kaliro",
+        "name": "Gadumire Health Centre III",
+        "lat": "1.105904", 
+        "lon": "33.510762"
+    },
+    {
+        "district": "Kaliro",
+        "name": "Namugongo Health Center III",
+        "lat": "0.8926", 
+        "lon": "33.47078" 	
+    },
+    {
+        "district": "Kaliro",
+        "name": "Nawaikoke Health Centre III",
+        "lat": "1.089615", 
+        "lon": "33.403712" 	
     },
     {
         "district": "Kalangala",
@@ -151,9 +181,27 @@
     },
     {
         "district": "Iganga",
-        "name": "Iganga Hospital",
-        "lat": "0.6163771792156301",
-        "lon": "33.485704127527335"
+        "name": "Bulamagi Health Centre III",
+        "lat": "0.6288972",  	 
+        "lon": "33.4412435"
+    },
+    {
+        "district": "Iganga",
+        "name": "Namungalwe Health Centre III",  
+        "lat": "0.7544896",  	 
+        "lon": "33.4359879"
+    },
+    {
+        "district": "Iganga",
+        "name": "Bugono Health Centre IV",  
+        "lat": "0.7944915",  	  
+        "lon": "33.4537464"
+    },
+    {
+        "district": "Iganga",
+        "name": "Busowobi Health Centre III",  
+        "lat": "0.6101994",  	   	 
+        "lon": "33.5338047"
     },
     {
         "district": "Soroti",
@@ -162,10 +210,40 @@
         "lon": "33.614485510328066"
     },
     {
+        "district": "Soroti",
+        "name": "Western Health Centre III",  
+        "lat": "1.710587190074796", 
+        "lon": "33.60061153890249"
+    },
+    {
+        "district": "Soroti",
+        "name": "Gweri Health Centre III",  
+        "lat": "1.7294038280902981", 
+        "lon": "33.73203624766954" 
+    },
+    {
         "district": "Tororo",
         "name": "Tororo General Hospital",   
         "lat": "0.6938898482887073",
         "lon": "34.18723507964271"
+    },
+    {
+        "district": "Tororo",
+        "name": "Mulanda Health Centre IV",    
+        "lat": "0.6844078012195137",
+        "lon": "34.00986344570078"
+    },
+    {
+        "district": "Tororo",
+        "name": "Nagongera Health Centre IV",     
+        "lat": "0.76975",
+        "lon": "34.02561"
+    },
+    {
+        "district": "Tororo",
+        "name": "Osukuru Health Centre III",     
+        "lat": "0.64722", 
+        "lon": "34.17162"
     },
     {
         "district": "Wakiso/Entebbe", 
@@ -178,5 +256,209 @@
         "name": "Kisubi Hospital",     
         "lat": "0.12214747103975",
         "lon": "32.53686685312011"
+    },
+    {
+        "district": "Wakiso/Kyadondo East", 
+        "name": "Kasangati HC IV",     
+        "lat": "0.4359326", 
+        "lon": "32.6014461"
+    },
+    {
+        "district": "Wakiso/Kyadondo East", 
+        "name": "Life Link Hospital",     
+        "lat": "0.3787373",  
+        "lon": "32.6451365"
+    },
+    {
+        "district": "Wakiso/Kyadondo South", 
+        "name": "Ndejje Health Center IV",     
+        "lat": "0.24993380611281749",  
+        "lon": "32.58545652692597"  
+    },
+    {
+        "district": "Wakiso/Kyadondo South", 
+        "name": "Doctors' Hospital Sseguku",     
+        "lat": "0.23199703105680014",  
+        "lon": "32.55211087038367"  
+    },
+    {
+        "district": "Wakiso/Busiro East",
+        "name": "Wakiso Health Centre IV",      
+        "lat": "0.3972874",  
+        "lon": "32.4777642"  
+    },
+    {
+        "district": "Wakiso/Entebbe",
+        "name": "Entebbe Grade B Hospital",      
+        "lat": "0.059367357206823713",   
+        "lon": "32.470937666680285"  
+    },
+    {
+        "district": "Yumbe",
+        "name": "Yumbe Health Centre IV",      
+        "lat": "3.4689660",   
+        "lon": "31.2461562"   
+    },
+    {
+        "district": "Zombo",
+        "name": "Nyapea Hospital",      
+        "lat": "2.4606697",   
+        "lon": "30.9498491"    
+    },
+    {
+        "district": "Mukono",
+        "name": "Kasawo Health Centre III",       
+        "lat": "0.6799562411694008",   
+        "lon": "32.82674067545574"    
+    },
+    {
+        "district": "Mukono",
+        "name": "Mukono General Hospital",       
+        "lat": "0.3610001718419603",   
+        "lon": "32.747189126203246"     
+    },
+    {
+        "district": "Mukono",
+        "name": "St Francis Nagalama Hospital",       
+        "lat": "0.5258641",   
+        "lon": "32.7793731"      
+    },
+    {
+        "district": "Mubende",
+        "name": "Kasambya (Kalungu) HC III",        
+        "lat": "-0.02063477909956498",   
+        "lon": "31.739007556892776"      
+    },
+    {
+        "district": "Mubende",
+        "name": "Kitenga Health Center III",        
+        "lat": "0.49693195262189815", 
+        "lon": "31.50869249921882"       
+    },
+    {
+        "district": "Mubende",
+        "name": "Mubende Regional referral Hospital",        
+        "lat": "0.5727235504907924",   
+        "lon": "31.391871926202693"       
+    },
+    {
+        "district": "Mbale",
+        "name": "Busiu Health Center IV",        
+        "lat": "0.9250573950341048",    
+        "lon": "34.16013739736552"       
+    },
+    {
+        "district": "Mbale",
+        "name": "Mbale Regional Referral Hospital",        
+        "lat": "1.07722",    
+        "lon": "34.17646"       
+    },
+    {
+        "district": "Mbale",
+        "name": "Namakwekwe Health center III",         
+        "lat": "1.0897733861232328",    
+        "lon": "34.1794163965808"       
+    },
+    {
+        "district": "Mbarara",
+        "name": "Bwizibwera Health Centre IV",          
+        "lat": "-0.43380922911322484",    
+        "lon": "30.573389968533984"       
+    },
+    {
+        "district": "Mbarara",
+        "name": "Kakoba Health Centre III",          
+        "lat": "-0.6039311370844741",    
+        "lon": "30.68220197038682"        
+    },
+    {
+        "district": "Mbarara",
+        "name": "Mbarara Regional Referral Hospital",          
+        "lat": "-0.616389",    
+        "lon": "30.658889"        
+    },
+    {
+        "district": "Luweero",
+        "name": "Kalagala Health Centre IV",          
+        "lat": "0.6184828132515244",     
+        "lon": "32.610037503381335"        
+    },
+    {
+        "district": "Luweero",
+        "name": "Luwero Hospital",          
+        "lat": "0.8210765371271181",      
+        "lon": "32.50154398093304"        
+    },
+    {
+        "district": "Busia",
+        "name": "Buhehe Health Centre III",          
+        "lat": "0.344623",      
+        "lon": "34.046708"    
+    },
+    {
+        "district": "Busia",
+        "name": "Bulumbi Health Centre III",          
+        "lat": "0.492232",      
+        "lon": "33.99084"    
+    },
+    {
+        "district": "Busia",
+        "name": "Busia Health Centre IV",         
+        "lat": "0.4634115761729237",      
+        "lon": "34.03504444763343"    
+    },
+    {
+        "district": "Busia",
+        "name": "Masafu Hospital",         
+        "lat": "0.41339",      
+        "lon": "34.03526"    
+    },
+    {
+        "district": "Kabale",
+        "name": "Kabale Regional Referral Hospital",         
+        "lat": "-1.251111",      
+        "lon": "29.989167"    
+    },
+    {
+        "district": "Kabale",
+        "name": "Rubaya Health Center IV",          
+        "lat": "-1.123946",      
+        "lon": "29.861582"    
+    },
+    {
+        "district": "Kabale",
+        "name": "Rugarama Hospital",          
+        "lat": "-1.244674",      
+        "lon": "29.983164"    
+    },
+    {
+        "district": "Kabale",
+        "name": "Rushoroza Hospital",           
+        "lat": "-1.2890516",      
+        "lon": "29.9963052"    
+    },
+    {
+        "district": "Kayunga",
+        "name": "Bbaale Health Centre IV",           
+        "lat": "1.0995145364204137",       
+        "lon": "32.88656477778946"    
+    },
+    {
+        "district": "Kayunga",
+        "name": "Galiraya Health Centre III",           
+        "lat": "1.3527376",       
+        "lon": "32.814703"     
+    },
+    {
+        "district": "Kayunga",
+        "name": "Kangulumira Health Centre IV",           
+        "lat": "0.5453278",        	 
+        "lon": "33.039912"     
+    },
+    {
+        "district": "Kayunga",
+        "name": "Kayunga Hospital",           
+        "lat": "0.703329",        	 
+        "lon": "32.903886"     
     }
 ] 
