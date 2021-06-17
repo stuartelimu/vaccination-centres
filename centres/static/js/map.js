@@ -9,7 +9,7 @@ const reload = document.querySelector('.leaflet-control-reload');
 
 reload.addEventListener('click', (e) => {
     e.preventDefault();
-
+    feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
     map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
 })
 
@@ -41,8 +41,10 @@ const onInput = () => {
             }).then(data => {
                 // clear input
                 val.value = ""
+                feature.clearLayers();
+
                 const centres = data.data;
-                let feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
+                feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
                 map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
             })
             .catch(err => console.warn('something went wrong ', err))
