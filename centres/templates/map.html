@@ -31,9 +31,19 @@
         </div>
 
         <div class="leaflet-top leaflet-left">
-        <div class="leaflet-bar leaflet-control" style="margin-top: 80px;">
-            <a class="leaflet-control-reload" href="#" title="Reload" role="button" aria-label="Reload">⟳</a>
+            <div class="leaflet-bar leaflet-control" style="margin-top: 80px;">
+                <a class="leaflet-control-reload" href="#" title="Reload" role="button" aria-label="Reload">⟳</a>
+            </div>
         </div>
+
+        <div class="leaflet-top leaflet-right">
+            <!-- Rectangular switch -->
+            <div class="leaflet-control" >
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            </div>
         </div>
     </div>
     <script src="{% static 'js/map.js' %}"></script>
