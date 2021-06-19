@@ -15,10 +15,10 @@
 
     {{ centres|json_script:"centres-data" }}
     <div id="map">
-        <div class="leaflet-top leaflet-right">
-            <div class="leaflet-control">
+        <div class="leaflet-top leaflet-left">
+            <div class="leaflet-control" style="margin-left: 60px">
 
-                <input type="text" id="districts" placeholder="search district" name="districts" list="districts-list">
+                <input type="text" id="districts" placeholder="Filter by district/division" name="districts" list="districts-list">
                 <datalist id="districts-list">
                     {% for centre in centers %}
 
@@ -28,6 +28,12 @@
                     
                 </datalist>
             </div>
+        </div>
+
+        <div class="leaflet-top leaflet-left">
+        <div class="leaflet-bar leaflet-control" style="margin-top: 80px;">
+            <a class="leaflet-control-reload" href="#" title="Reload" role="button" aria-label="Reload">⟳</a>
+        </div>
         </div>
     </div>
     <script src="{% static 'js/map.js' %}"></script>

@@ -5,6 +5,14 @@ const centres = JSON.parse(document.getElementById('centres-data').textContent);
 let feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
 map.fitBounds(feature.getBounds(), { padding: [100, 100] });
 
+const reload = document.querySelector('.leaflet-control-reload');
+
+reload.addEventListener('click', (e) => {
+    e.preventDefault();
+    feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
+    map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
+})
+
 
 // var corner1 = L.latLng(0.2480, 32.4363),
 // corner2 = L.latLng(0.3737, 32.6509),
@@ -23,7 +31,6 @@ const onInput = () => {
 
     opts.forEach(dist => {
         if(dist.value == val.value) {
-            // alert(dist.value)
             // send the value to backend
             fetch("/ajax/filter?" + new URLSearchParams({district: dist.value}))
             .then(response => {
@@ -34,8 +41,10 @@ const onInput = () => {
             }).then(data => {
                 // clear input
                 val.value = ""
+                feature.clearLayers();
+
                 const centres = data.data;
-                let feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
+                feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
                 map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
             })
             .catch(err => console.warn('something went wrong ', err))
