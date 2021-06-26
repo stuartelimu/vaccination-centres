@@ -129,7 +129,7 @@ For MacOS (via HomeBrew):
 brew install gdal
 ```
 
-Create a virtual environment using the following command:
+Next in the project directory, create a virtual environment using the following command:
 
 ```
 python3 -m venv env
@@ -157,7 +157,7 @@ python -m pip install -r requirements.txt
 
 Create a `.env` file, copy all the contents from `.env.sample` file and paste them in the `.env` file you just created.
 
-Make migrations to sync and create a database
+Make migrations to sync and create a database:
 
 ```
 python manage.py migrate
@@ -169,7 +169,7 @@ Run the web app using this command:
 python manage.py runserver
 ```
 
-Navigate to:
+On your browser, navigate to:
 
 ```
 http://127.0.0.1:8000/
@@ -261,6 +261,4 @@ Submit your changes for review, If you go to your repository on GitHub, you'll s
 
 Add a brief description and submit the pull request.
 
-Soon we'll be merging all your changes into the master branch of this project.
-
-You will get push notification on github and a notification email once the changes have been merged.
+Soon we'll be merging all your changes into the master branch of this project. You will get push notification on github and a notification email once the changes have been merged.
