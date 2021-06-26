@@ -42,6 +42,36 @@
         "lon": "32.61157128202336"
     },
     {
+        "district": "Kampala/Makindye Division",
+        "name": "St Ponsiano Catholic Church",   
+        "lat": "0.25598",
+        "lon": "32.60501"  
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Ggaba Model Primary & Nursery School",   
+        "lat": "0.2574258", 
+        "lon": "32.6344913"  
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Victory Church Wabigalo",     
+        "lat": "0.3078738044218752", 
+        "lon": "32.60357958943172"  
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Kairos Primary & Secondary School",     
+        "lat": "0.2930220293574968", 
+        "lon": "32.62889025080798"   
+    },
+    {
+        "district": "Kampala/Makindye Division",
+        "name": "Katwe Primary School",     
+        "lat": "0.3002163",  
+        "lon": "32.5792077"   
+    },
+    {
         "district": "Kampala/Central Division",
         "name": "Kamwokya Christian Caring Community",  
         "lat": "0.3434346517599219",
@@ -58,6 +88,36 @@
         "name": "City Hall Clinic",   
         "lat": "0.3071651455097963",
         "lon": "32.61209695080793"
+    },
+    {
+        "district": "Kampala/Central Division",  
+        "name": "Bat Valley Primary School",   
+        "lat": "0.32276460175165184",
+        "lon": "32.57398009128373"
+    },
+    {
+        "district": "Kampala/Central Division",  
+        "name": "Nakivubo Blue Primary School",    
+        "lat": "0.3088040015802239",
+        "lon": "32.576201754775845"
+    },
+    {
+        "district": "Kampala/Central Division",  
+        "name": "Old Kampala Hospital",     
+        "lat": "0.3162727872082472",
+        "lon": "32.56927751456353"
+    },
+    {
+        "district": "Kampala/Central Division",  
+        "name": "Kitante Primary School",     
+        "lat": "0.3341408155260778",  
+        "lon": "32.5830769452516"
+    },
+    {
+        "district": "Kampala/Central Division",  
+        "name": "Kololo Airstrip",     
+        "lat": "0.32663066553527825",   
+        "lon": "32.595004978175595"   
     },
     {
         "district": "Kampala/Rubaga Division",
@@ -84,6 +144,30 @@
         "lon": "32.55013324318982"
     },
     {
+        "district": "Kampala/Rubaga Division",
+        "name": "Namirembe Infants Primary School",   
+        "lat": "0.32169115504822393",
+        "lon": "32.56156092660409"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Nateete Muslim Primary School",    
+        "lat": "0.3076253424148447",
+        "lon": "32.537848854593314"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Namungoona Kigobe Primary School",     
+        "lat": "0.3264133437102492",
+        "lon": "32.53847469683994"
+    },
+    {
+        "district": "Kampala/Rubaga Division",
+        "name": "Kabowa Primary School",      
+        "lat": "0.28347468871169174",
+        "lon": "32.55723984339981"
+    },
+    {
         "district": "Kampala/Kawempe Division",
         "name": "St. Stephen Mpererwe Hospital",
         "lat": "0.39965101189796626",
@@ -100,6 +184,36 @@
         "name": "Kawempe National Referral Hospital",  
         "lat": "0.361944",
         "lon": "32.561389"
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "Kawempe Division Offices",  
+        "lat": "0.35373281553708374",  
+        "lon": "32.56089092567598"
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "St. Peter’s Kanyanya Primary School",   
+        "lat": "0.3706053714048993",  
+        "lon": "32.58285656985602"
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "Mulago Hospital",   
+        "lat": "0.3389",  
+        "lon": "32.5759"  
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "St Martin Primary School",   
+        "lat": "0.34623352935481083",   
+        "lon": "32.57599710847983"  
+    },
+    {
+        "district": "Kampala/Kawempe Division",
+        "name": "Komamboga Health Center III",   
+        "lat": "0.39086994275680287",   
+        "lon": "32.58503618334789"   
     },
     {
         "district": "Kampala/Nakawa Division",
@@ -124,6 +238,36 @@
         "name": "UMC Victoria Hospital, Bukoto",     
         "lat": "0.350141815192438",
         "lon": "32.604006556364006"
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Mbuya Military Health Center",     
+        "lat": "0.32626232462746907",
+        "lon": "32.62240615636421"  
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "St. Paul's Church of Uganda, Kulambiro",     
+        "lat": "0.37326035797341894",  
+        "lon": "32.610088799220335"   
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Ntinda Primary School",     
+        "lat": "0.35147448609063997",
+        "lon": "32.61699468890434"    
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Nakawa Division Offices",      
+        "lat": "0.33278447227830826",
+        "lon": "32.610911054512115"    
+    },
+    {
+        "district": "Kampala/Nakawa Division",
+        "name": "Kyambogo University Medical Center",      
+        "lat": "0.3459194016879745",  
+        "lon": "32.63317246615192"    
     },
     {
         "district": "Kaliro",
