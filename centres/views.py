@@ -6,7 +6,7 @@ from django.views.generic.base import TemplateView
 from django.contrib.gis.geos import Polygon
 from django.http import JsonResponse
 
-from .models import Centre
+from .models import Centre, TestCentre
 
 
 class CentreMapView(TemplateView):
@@ -28,6 +28,16 @@ def filter_view(request):
         centres = Centre.objects.filter(district=district)
         data = json.loads(serialize("geojson", centres))
         return JsonResponse({"data": data})
+
+def test_centre_list_view(request):
+    if request.is_ajax and request.method == 'GET':
+        # check the section i.e test
+        section = request.GET.get('section', None)
+        if section == 'test':
+            # return test centres
+            centres = json.loads(serialize("geojson", TestCentre.objects.all()))
+            return JsonResponse({"data": centres})
+    return JsonResponse({}, status = 400)
 
 # def get_context_data(self, **kwargs):
 #     context = super().get_context_data(**kwargs)

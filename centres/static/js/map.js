@@ -54,6 +54,39 @@ const onInput = () => {
 
 document.querySelector('#districts').addEventListener('input', onInput);
 
+const onClick = () => {
+    const checkBox = document.querySelector('#toggle-btn');
+
+    // TODO: show loading spinner
+
+    if (!checkBox.checked) {
+        // get test centres from backend
+        fetch("/ajax/centres/test?" + new URLSearchParams({section: 'test'}))
+        .then(response => {
+            if(response.ok) {
+                return response.json();
+            }
+            return response;
+        }).then(data => {
+            // clear current layer
+            feature.clearLayers();
+
+            const centres = data.data;
+            feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
+            map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
+
+        })
+        .catch(err => console.warn('something went wrong ', err))
+        console.log('checked');
+        
+    } else {
+        console.log('not checked');
+        feature = L.geoJSON(centres).bindPopup(function (layer) { return layer.feature.properties.name; }).addTo(map);
+        map.flyToBounds(feature.getBounds(), { padding: [100, 100] });
+    }
+}
+
+document.querySelector('.slider').addEventListener('click', onClick);
 
 
 
