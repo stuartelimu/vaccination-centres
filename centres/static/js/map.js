@@ -12,6 +12,7 @@ const reload = document.querySelector('.leaflet-control-reload');
 
 reload.addEventListener('click', (e) => {
     e.preventDefault();
+    feature.clearLayers();
     markers.clearLayers();
 
     feature = L.geoJSON(centres);
