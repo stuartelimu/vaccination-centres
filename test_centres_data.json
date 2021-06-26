@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Uganda Virus Research Institute",
+        "district": "",
+        "address": "",
+        "contact": "",
+        "fee": 0,
+        "lat": "0.08064138339237946",
+        "lon": "32.47754970276954"
+    }, 
+    {
+        "name": "Central Public Health Laboratories/UNHLS",
+        "district": "",
+        "address": "Plot 1062-106 Butabika Rd Luzira,",
+        "contact": "0800221100",
+        "fee": 0,
+        "lat": "0.31870285352457095",  
+        "lon": "32.65382378259154"
+    }, 
+    {
+        "name": "Infectious Diseases Institute",
+        "district": "",
+        "address": "",
+        "contact": "0312307000",
+        "fee": 0,
+        "lat": "0.34050291058667775",  
+        "lon": "32.57308061553833"
+    }, 
+    {
+        "name": "Mildmay Uganda Laboratory",
+        "district": "",
+        "address": "12Km Off Entebbe Road, Nazibwa Hill, Lweza",
+        "contact": "0312210200",
+        "fee": 0,
+        "lat": "0.23082603565668447",  
+        "lon": "32.57178989995365"  
+    }, 
+    {
+        "name": "Joint Clinical Research Centre (JCRC)",
+        "district": "",
+        "address": "",
+        "contact": "0417723000",
+        "fee": 0,
+        "lat": "0.23872563685850104",   
+        "lon": "32.574193173240346"  
+    }, 
+    {
+        "name": "MBN Clinical Laboratories - Kampala",
+        "district": "",
+        "address": "",
+        "contact": "",  
+        "fee": 0,
+        "lat": "0.32801431570316997",   
+        "lon": "32.57827763431562"  
+    }, 
+    {
+        "name": "Medipal International Hospital",
+        "district": "",
+        "address": "John Babiha (Acacia) Ave, Kampala",
+        "contact": "0417799900",  
+        "fee": 0,
+        "lat": "0.32895313374554286",   
+        "lon": "32.58769647083022"   
+    }, 
+    {
+        "name": "Test & Fly Laboratories",
+        "district": "",
+        "address": "Yusuf Lule Road, Kampala",
+        "contact": "0200902072",  
+        "fee": 0,
+        "lat": "0.3304360941429923",   
+        "lon": "32.58294433192957"    
+    }, 
+    {
+        "name": "Uganda Cancer Institute, Fred Hutchinson Laboratory",
+        "district": "",
+        "address": "Upper Mulago Hill Rd, Kampala",
+        "contact": "0414540410",  
+        "fee": 0,
+        "lat": "0.3416085158902071",   
+        "lon": "32.57843222382396"     
+    }, 
+    {
+        "name": "International Organization for Migration (IOM) Laboratory",
+        "district": "",
+        "address": "Plot 6A Bukoto Crescent, Naguru, Kampala 11431",
+        "contact": "0312263210",  
+        "fee": 0,
+        "lat": "0.34151481172748793",    
+        "lon": "32.60510144541783"     
+    }, 
+    {
+        "name": "ANCA Biotech",
+        "district": "",
+        "address": "118 Luthuli Ave, Kampala",
+        "contact": "0393241400",  
+        "fee": 0,
+        "lat": "0.3083609911725625",     
+        "lon": "32.62450577959901"     
+    }, 
+    {
+        "name": "Case Medical Centre",
+        "district": "",
+        "address": "69-71 Buganda Rd, Kampala",
+        "contact": "",  
+        "fee": 0,
+        "lat": "0.3249200730386209",      
+        "lon": "32.57509155318737"     
+    }, 
+    {
+        "name": "Epicentre Uganda",
+        "district": "",
+        "address": "Kabale Road, MUST Campus",
+        "contact": "0772721751",  
+        "fee": 0,
+        "lat": "-0.6173091506461661",      
+        "lon": "30.65829272197537"     
+    }, 
+    {
+        "name": "Rakai Health Sciences Program",
+        "district": "",
+        "address": "Masaka - Kakuto Rd, Kalisizo",
+        "contact": "0200900384",  
+        "fee": 0,
+        "lat": "-0.48993948276038607",      
+        "lon": "31.63289305365633"      
+    }
+]
+
+
+
+
+ 
