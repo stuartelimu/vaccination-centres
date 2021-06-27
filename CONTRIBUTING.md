@@ -2,7 +2,7 @@
 
 Thank you for your help in improving this project.
 
-All contributors are welcome. This project is community-built and welcomes collaboration. Contributors are expected to adhere to our [Code of Conduct](#).
+All contributors are welcome. This project is community-built and welcomes collaboration. Contributors are expected to adhere to our [Code of Conduct (In Progress)](#).
 
 All set to contribute? Grab an open issue with the [help wanted](https://github.com/stuartelimu/vaccination-centres/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) or [good first issue](https://github.com/stuartelimu/vaccination-centres/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label and jump in.
 
@@ -59,7 +59,7 @@ Or you may configure your IDE of your choice to automatically sign-off commits f
 
 ## <a name="dev-setup">Development Setup</a>
 
-### <a style="color: #FF4500" name="fork">Fork and clone the repository</a>
+### <a name="fork">Fork and clone the repository</a>
 
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
 
@@ -112,7 +112,7 @@ However, if you have been making changes on master (in the vast majority of case
 
 Now, your local master branch is up-to-date with everything modified upstream.
 
-### <a style="color: #FF4500" name="install">Setup and installation</a>
+### <a name="install">Setup and installation</a>
 
 Ensure GDAL Library is installed:
 
@@ -182,7 +182,7 @@ To deactivate a virtual environment insider (env), type:
 deactivate
 ```
 
-### <a style="color: #FF4500" name="future-contribution">Making contributions</a>
+### <a name="future-contribution">Making contributions</a>
 
 Create a new branch where your change(s) will reside, run:
 
@@ -222,7 +222,7 @@ Push these changes to github
 git push origin new-branch
 ```
 
-### <a style="color: #FF4500" name="submitting"> Submitting your changes (Pull Request) </a>
+### <a name="submitting"> Submitting your changes (Pull Request) </a>
 
 Before submitting your pull request, you might want to do a few things to clean up your branch and make it as simple as possible for the original repo's maintainer to test, accept, and merge your work.
 
