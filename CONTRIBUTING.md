@@ -1,4 +1,4 @@
-# <a name="contribution">Contribution Overview</a>
+# <a name="contribution-head">Contribution Overview</a>
 
 Thank you for your help in improving this project.
 
@@ -6,17 +6,18 @@ All contributors are welcome. This project is community-built and welcomes colla
 
 All set to contribute? Grab an open issue with the [help wanted](https://github.com/stuartelimu/vaccination-centres/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) or [good first issue](https://github.com/stuartelimu/vaccination-centres/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label and jump in.
 
-Create a [new issue](/../../issues/new/choose) if needed. All [pull requests](https://github.com/stuartelimu/vaccination-centres/pulls) should ideally reference an open [issue](https://github.com/stuartelimu/vaccination-centres/issues). Include keywords in your pull request descriptions, as well as commit messages, to [automatically close related issues in GitHub](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords).
+Create a [new issue](https://github.com/stuartelimu/vaccination-centres/issues/new) if needed. All [pull requests](https://github.com/stuartelimu/vaccination-centres/pulls) should ideally reference an open [issue](https://github.com/stuartelimu/vaccination-centres/issues?q=is%3Aopen+is%3Aissue). Include keywords in your pull request descriptions, as well as commit messages, to [automatically close related issues in GitHub](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords).
 
 **Sections**
 
-- <a href="contribution">General Contribution Flow</a>
+- <a href="#contribution">General Contribution Flow</a>
   - <a href="#commit-signing">Signing-off on Commits (Developer Certificate of Origin)</a>
-  - <a href="#">Our Documentation</a>
+  - <a href="#">Our Documentation (In Progress)</a>
   - <a href="#dev-setup">Development Setup</a>
     - <a href="#fork">Fork and Clone Repository</a>
     - <a href="#install">Setup and Installation</a>
     - <a href="#future-contribution">Making Contributions</a>
+    - <a href="#submitting">Submitting your changes (Pull Request)</a>
 
 # <a name="contribution">General Contribution Flow</a>
 
@@ -58,7 +59,7 @@ Or you may configure your IDE of your choice to automatically sign-off commits f
 
 ## <a name="dev-setup">Development Setup</a>
 
-### <a name="fork">Fork and clone the repository</a>
+### <a style="color: #FF4500" name="fork">Fork and clone the repository</a>
 
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
 
@@ -111,7 +112,7 @@ However, if you have been making changes on master (in the vast majority of case
 
 Now, your local master branch is up-to-date with everything modified upstream.
 
-### <a name="install">Setup and installation</a>
+### <a style="color: #FF4500" name="install">Setup and installation</a>
 
 Ensure GDAL Library is installed:
 
@@ -181,7 +182,7 @@ To deactivate a virtual environment insider (env), type:
 deactivate
 ```
 
-### <a name="future-contribution">Making contributions</a>
+### <a style="color: #FF4500" name="future-contribution">Making contributions</a>
 
 Create a new branch where your change(s) will reside, run:
 
@@ -221,7 +222,7 @@ Push these changes to github
 git push origin new-branch
 ```
 
-### Submitting your changes (a Pull Request)
+### <a style="color: #FF4500" name="submitting"> Submitting your changes (Pull Request) </a>
 
 Before submitting your pull request, you might want to do a few things to clean up your branch and make it as simple as possible for the original repo's maintainer to test, accept, and merge your work.
 
