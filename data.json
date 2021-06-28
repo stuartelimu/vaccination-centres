@@ -546,6 +546,12 @@
         "lon": "32.470937666680285"  
     },
     {
+        "district": "Wakiso/Entebbe",
+        "name": "Uganda Virus Research Institute",      
+        "lat": "0.07589574765439853",   
+        "lon": "32.45765801620368"   
+    },
+    {
         "district": "Yumbe",
         "name": "Yumbe Health Centre IV",      
         "lat": "3.4689660",   
