@@ -480,6 +480,18 @@
         "lon": "32.55211087038367"  
     },
     {
+        "district": "Wakiso/Kyadondo South", 
+        "name": "Mildmay Uganda Hospital",     
+        "lat": "0.22640481738064874",  
+        "lon": "32.5524182352432"   
+    },
+    {
+        "district": "Wakiso/Kyadondo South", 
+        "name": "JCRC",     
+        "lat": "0.2322464761911447",   
+        "lon": "32.56719932992505"   
+    },
+    {
         "district": "Wakiso/Busiro East",
         "name": "Wakiso Health Centre IV",      
         "lat": "0.3972874",  
