@@ -450,6 +450,18 @@
         "lon": "32.6014461"
     },
     {
+        "district": "Wakiso/Kyadondo East", 
+        "name": "Wattuba Health Centre III",     
+        "lat": "0.4377108275309421", 
+        "lon": "32.53241659661119"  
+    },
+    {
+        "district": "Wakiso/Kyadondo East", 
+        "name": "Saidina Abubakar Islamic Hospital",      
+        "lat": "0.4357367790809355", 
+        "lon": "32.535388484058515"  
+    },
+    {
         "district": "Wakiso/Kira", 
         "name": "Life Link Hospital",     
         "lat": "0.3787373",  
