@@ -492,6 +492,18 @@
         "lon": "32.56719932992505"   
     },
     {
+        "district": "Wakiso/Kyadondo North", 
+        "name": "Buwambo Health Centre IV",      
+        "lat": "0.5014835260165635",   
+        "lon": "32.54561103154449"   
+    },
+    {
+        "district": "Wakiso/Kyadondo North", 
+        "name": "Community Health Plan Health Centre III",      
+        "lat": "0.3707072858499465",    
+        "lon": "32.526400404558316"   
+    },
+    {
         "district": "Wakiso/Busiro East",
         "name": "Wakiso Health Centre IV",      
         "lat": "0.3972874",  
