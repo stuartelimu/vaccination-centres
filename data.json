@@ -408,6 +408,30 @@
         "lon": "32.45338378856828"  
     },
     {
+        "district": "Wakiso/Busiro North", 
+        "name": "Namayumba Health Centre IV",     
+        "lat": "0.5355192259181283", 
+        "lon": "32.28480513180526"  
+    },
+    {
+        "district": "Wakiso/Busiro North", 
+        "name": "Namayumba EPI Health Centre III",     
+        "lat": "0.5270858266778832",  
+        "lon": "32.260289675722156"  
+    },
+    {
+        "district": "Wakiso/Busiro North", 
+        "name": "Kakiri Health Centre III",     
+        "lat": "0.42327375133594636",  
+        "lon": "32.376987882726084"   
+    },
+    {
+        "district": "Wakiso/Busiro North", 
+        "name": "Kiziba Health Centre III",     
+        "lat": "0.506736118870535",  
+        "lon": "32.36774667790448"   
+    },
+    {
         "district": "Wakiso/Kyadondo East", 
         "name": "Kasangati HC IV",     
         "lat": "0.4359326", 
