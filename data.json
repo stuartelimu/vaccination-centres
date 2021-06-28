@@ -432,13 +432,25 @@
         "lon": "32.36774667790448"   
     },
     {
+        "district": "Wakiso/Kira", 
+        "name": "Kira Health Centre III",     
+        "lat": "0.39826291409857656",  
+        "lon": "32.640899110104804"    
+    },
+    {
+        "district": "Wakiso/Kira", 
+        "name": "Bweyogerere Health Centre III",     
+        "lat": "0.35059890449742676",  
+        "lon": "32.66631593897116"     
+    },
+    {
         "district": "Wakiso/Kyadondo East", 
         "name": "Kasangati HC IV",     
         "lat": "0.4359326", 
         "lon": "32.6014461"
     },
     {
-        "district": "Wakiso/Kyadondo East", 
+        "district": "Wakiso/Kira", 
         "name": "Life Link Hospital",     
         "lat": "0.3787373",  
         "lon": "32.6451365"
