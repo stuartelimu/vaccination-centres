@@ -396,10 +396,16 @@
         "lon": "32.471818485660094"
     },
     {
-        "district": "Wakiso/Entebbe", 
+        "district": "Wakiso/Busiro South", 
         "name": "Kisubi Hospital",     
         "lat": "0.12214747103975",
         "lon": "32.53686685312011"
+    },
+    {
+        "district": "Wakiso/Busiro South", 
+        "name": "Nakawuka Health Centre III",     
+        "lat": "0.20519755134988205",
+        "lon": "32.45338378856828"  
     },
     {
         "district": "Wakiso/Kyadondo East", 
@@ -454,6 +460,12 @@
         "name": "Bulondo Health Centre III",        
         "lat": "0.45025748379245095",    
         "lon": "32.43395445636373"  
+    },
+    {
+        "district": "Wakiso/Busiro South",
+        "name": "Kajjansi Health Center IV",         
+        "lat": "0.2164578886783736",    
+        "lon": "32.51067494878002"  
     },
     {
         "district": "Wakiso/Entebbe",
