@@ -432,6 +432,12 @@
         "lon": "32.4777642"  
     },
     {
+        "district": "Wakiso/Busiro East",
+        "name": "Wakiso EPI Health Centre III",      
+        "lat": "0.4071682138376836",   
+        "lon": "32.46605748943137"  
+    },
+    {
         "district": "Wakiso/Entebbe",
         "name": "Entebbe Grade B Hospital",      
         "lat": "0.059367357206823713",   
