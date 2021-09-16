@@ -718,5 +718,71 @@
         "name": "Kayunga Hospital",           
         "lat": "0.703329",        	 
         "lon": "32.903886"     
+    },
+    {
+        "district": "Kasese",
+        "name": "Bwera Health Centre IV",         
+        "lat": "0.03393",        	 
+        "lon": "29.76721"    
+    },
+    {
+        "district": "Kasese",
+        "name": "Kagando Hospital",         
+        "lat": "0.06334",        	 
+        "lon": "29.89830"    
+    },
+    {
+        "district": "Kasese",
+        "name": "Rwesande Health Centre IV",    
+        "lat": "0.17016",        	 
+        "lon": "30.07809"    
+    },
+    {
+        "district": "Ntoroko",
+        "name": "Karugutu Health Centre IV", 
+        "lat": "0.79206",        	 
+        "lon": "30.22681"    
+    },
+    {
+        "district": "Ntoroko",
+        "name": "Ntoroko District Headquarters",
+        "lat": "0.94541",        	 
+        "lon": "30.23962"    
+    },
+    {
+        "district": "Ntungamo",
+        "name": "Itojo Hospital",
+        "lat": "-0.76729",        	 
+        "lon": "30.29059"  
+    },
+    {
+        "district": "Ntungamo",
+        "name": "Kitwe Health Centre IV",
+        "lat": "-0.90597",        	 
+        "lon": "30.37900"  
+    },
+    {
+        "district": "Ntungamo",
+        "name": "Ntungamo Health Centre IV",
+        "lat": "-0.87739",        	 
+        "lon": "30.26421"  
+    },
+    {
+        "district": "Ntungamo",
+        "name": "Rubaare Health Centre IV",
+        "lat": "-1.01789",        	 
+        "lon": "30.18239"  
+    },
+    {
+        "district": "Ntungamo",
+        "name": "Rwashamaire Health Centre IV",
+        "lat": "-0.84190",        	 
+        "lon": "30.13391"  
+    },
+    {
+        "district": "Sheema",
+        "name": "Bugongi Health Centre III",
+        "lat": "-0.64441",        	 
+        "lon": "30.20066"  
     }
 ] 
